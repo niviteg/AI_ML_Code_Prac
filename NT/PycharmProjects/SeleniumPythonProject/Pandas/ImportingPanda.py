@@ -30,5 +30,14 @@ a=[1,2,3,4,5]
 myvar=pd.Series(a,index=('a','b','c','d','e'))
 print(myvar['a'])
 
+#DataFrame
+a={"c":[370,38,270],"d":[10,20,30]}
+df=pd.DataFrame(a)
+print(df)
+#Print 0 index data
+print(df.loc[0])
+print(df.to_string())
+
+
 
 
